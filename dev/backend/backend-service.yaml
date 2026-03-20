@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: backend
-    version: blue   # 👈 Traffic goes to BLUE first
+    version: green   # 👈 Traffic goes to BLUE first
   ports:
   - port: 80
     targetPort: 80
